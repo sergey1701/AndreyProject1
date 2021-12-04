@@ -1,0 +1,29 @@
+# CUC Digital stellar.toml
+
+# Federation service provided by Scopuly.com
+
+DOMAIN="https://cuc.digital"
+FEDERATION_SERVER="https://api.scopuly.com/federation"
+
+ACCOUNTS=[
+"GAQKTGG3ZY5V4YUDFR5D5LMJXMFYSOIO7MWRREHI23VVSKN2OKTR6PDO",
+"GDOOXTJGU5FW6KEMLLOKN4SLT4B2RZVUXPW2WEPWHP7YGZBGR6YXLYC6"]
+
+[DOCUMENTATION]
+ORG_NAME="CUC Digital"
+ORG_URL="https://www.cuc.digital"
+ORG_DESCRIPTION="CUC Digital: Securely Store, Manage, Invest, Pay, Move Crypto Assets."
+
+[[CURRENCIES]]
+code="CUC"
+name="CUC"
+issuer="GAQKTGG3ZY5V4YUDFR5D5LMJXMFYSOIO7MWRREHI23VVSKN2OKTR6PDO"
+desc="CUC Digital (CUC) is a cryptocurrency token and operates on the Stellar platform. More information can be found at https://cuc.digital"
+conditions="Total issued 100,000,000,000 CUC. Further emission is not possible."
+image="https://cuc.digital/.well-known/cuc_logo.png"
+status="live"
+display_decimals=5
+fixed_number=100000000000
+
+
+
